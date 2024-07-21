@@ -1,11 +1,11 @@
-import random # Importa o modulo random
+import random # Importing random module
 
-# Inicializa as variaveis
-black_sheep = 4 # Numero inicial de ovelhas pretas
-white_sheep = 2 # Numero inicial de ovelhas brancas
-maior_numero = 0 # Variavel para armazenar o maior numero de ovelhas
+# Initialyze the variables
+black_sheep = 4 # Initial number of blacksheep
+white_sheep = 2 # Initial number of white sheep
+maior_numero = 0 # Variable to store the largest number of sheep
 
-# Define a funcao para gerar o numero de ovelhas no pasto
+# Defines the function to generate the number of sheep in the pasture
 def ovelhas_no_pasto(min, ovelhas_max):
     return random.randint(min, ovelhas_max)
 
